@@ -29,14 +29,14 @@
   
   /*Headlin/Title**/
   h1 {
-    font-size: 28;
+    font-size: 28px;
     font-weight: 600;
     color: #054149;
   }
   
   /**Typographie for general paragraphs**/
   p { 
-    font-size: 16;
+    font-size: 16px;
     font-weight: 300;
   }
   
@@ -54,7 +54,7 @@
     text-decoration: underline;
     -webkit-text-decoration-color: #064457;
             text-decoration-color: #064457;
-    text-decoration-thickness: 3;
+    text-decoration-thickness: 3px;
   }
   
   a:active {
@@ -62,7 +62,7 @@
     text-decoration: underline;
     -webkit-text-decoration-color: #064457;
             text-decoration-color: #064457;
-    text-decoration-thickness: 3;
+    text-decoration-thickness: 3px;
   }
   
   a:hover {
@@ -87,8 +87,8 @@
     padding: 25px;
     border-radius: 5px;
     margin: 20px;
-    border-radius: 3;
-    border-bottom: 5px solid 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
   
   }
   
@@ -148,7 +148,7 @@
 
 .navigation-list {
     display: inline-block;
-    margin-left: 15;
+    margin-left: 15px;
 }
 
 .navigation-list li {
@@ -249,8 +249,8 @@ button {
   padding: 25px;
   border-radius: 5px;
   margin: 20px;
-  border-radius: 3;
-  border-bottom: 5px solid 5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
 }
 
 
@@ -263,8 +263,8 @@ button {
   padding: 25px;
   border-radius: 5px;
   margin: 20px;
-  border-radius: 3;
-  border-bottom: 5px solid 5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
 }
 
 button:hover,
@@ -284,7 +284,7 @@ button:focus,
   text-decoration: none;
   padding: 25px;
   border-radius: 5px;
-  border-bottom: undefined;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
           transition-duration: 0.2s;
@@ -302,7 +302,7 @@ button {
   text-decoration: none;
   padding: 25px;
   border-radius: 5px;
-  border-bottom: undefined;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
           transition-duration: 0.2s;
